@@ -223,6 +223,7 @@ body {
   }
   .banner-content{
     width: 100%;
+    margin-bottom: 50px;
   }
   .banner-title,.special-font{
     font-size: 2.25rem;
@@ -232,13 +233,13 @@ body {
   .workOut{
     width: 150px;
     padding: 14px;
-    top: 580px;
+    top: 630px;
     right: 10%;
   }
   .tutorial{
     width: 160px;
-    top: 780px;
-    left: 15%;
+    top: 830px;
+    left: 14%;
   }
   .tutorial h4{
     font-size: 1rem;
@@ -282,5 +283,45 @@ body {
       font-size: 2rem;
       font-weight: 800;
       font-style: italic;
+    }
+
+    /* banner */
+    .banner-section{
+      flex-direction: column;
+      width: 80%;
+    }
+    .banner-content{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+    .banner-title,.special-font{
+      font-size: 4rem;
+      line-height: 60px;
+    }
+  
+    .workOut{
+      width: 150px;
+      padding: 14px;
+      top: 680px;
+      right: 28%;
+    }
+    .tutorial{
+      width: 165px;
+      padding: 20px 16px;
+      top: 965px;
+      left: 25%;
+    }
+    .tutorial h4{
+      font-size: 1.25rem;
+    }
+  
+    .tutorial p{
+      font-size: 0.9rem;
+    }
+    .red-circle{
+      display: block;
+    }
+    .tutorial i{
+      display: none;
     }
 }
