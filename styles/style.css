@@ -1,0 +1,13 @@
+/* added google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.special-font{
+    font-family: "Great Vibes", cursive;
+}
+
+.inner-font{
+    font-family: "Inter", sans-serif;
+}
+
