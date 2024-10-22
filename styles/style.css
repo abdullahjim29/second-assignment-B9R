@@ -1,13 +1,75 @@
 /* added google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-.special-font{
-    font-family: "Great Vibes", cursive;
+.special-font {
+  font-family: "Great Vibes", cursive;
 }
 
-.inner-font{
-    font-family: "Inter", sans-serif;
+/* default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* common shared styles */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+
+.container {
+  width: 73.61%;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.flex,
+.nav-bar,.nav-bar ul
+ {
+  display: flex;
+}
+
+.primary-color{
+    color: rgb(230, 83, 60);
+}
+
+/* header section related styles */
+.header-secton {
+ 
+}
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.nav-bar ul {
+    list-style: none;
+    gap: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.125rem;
+    align-items: center;
+}
+
+.nav-title{
+   color: rgb(230, 83, 60);
+   font-size: 2rem;
+   font-weight: 800;
+   font-style: italic;
+}
+
+.nav-items{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 14px;
+    border-radius: 30px;
+}
+
+#change-bg{
+    background-color:rgb(230, 83, 60);
+    padding: 8px 18px;
+    border-radius: 30px;
+}
