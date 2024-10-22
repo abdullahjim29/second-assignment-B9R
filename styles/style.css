@@ -195,6 +195,10 @@ body {
   color: rgba(255, 255, 255, 0.65);
 }
 
+.tutorial i{
+  display: none;
+}
+
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
   /* nav bar */
@@ -211,6 +215,48 @@ body {
   .nav-items {
     border: none;
   }
+
+  /* banner section */
+  .banner-section{
+    flex-direction: column;
+    width: 95%;
+  }
+  .banner-content{
+    width: 100%;
+  }
+  .banner-title,.special-font{
+    font-size: 2.25rem;
+    line-height: 40px;
+  }
+
+  .workOut{
+    width: 150px;
+    padding: 14px;
+    top: 580px;
+    right: 10%;
+  }
+  .tutorial{
+    width: 160px;
+    top: 780px;
+    left: 15%;
+  }
+  .tutorial h4{
+    font-size: 1rem;
+  }
+
+  .tutorial p{
+    font-size: 0.8rem;
+  }
+  .red-circle{
+    display: none;
+  }
+  .tutorial i{
+    display: block;
+    background-color: rgb(230, 83, 60);
+    padding: 8px 10px;
+    border-radius: 50%;
+  }
+
 }
 
 
