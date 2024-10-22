@@ -377,4 +377,16 @@ body {
     .tutorial i{
       display: none;
     }
+
+    /* change habits */
+  .habits-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 48px;
+  }
+  .habits-main-heading{
+    width: 100%;
+  }
+  .habits-main-heading .habits-title{
+    font-size: 3rem;
+  }
 }
