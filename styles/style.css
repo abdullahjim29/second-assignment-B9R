@@ -434,4 +434,17 @@ body {
   .habits-main-heading .habits-title{
     font-size: 3rem;
   }
+
+  /* run section */
+  .run-section{
+    width: 95%;
+    gap: 24px;
+  }
+  .run-content h1{
+    font-size: 2rem;
+  }
+  .run-image img{
+    width: 100%;
+    height: 100%;
+  }
 }
