@@ -5,6 +5,8 @@
 
 .special-font {
   font-family: "Great Vibes", cursive;
+  font-size: 8rem;
+  font-weight: 100;
 }
 
 /* default styles */
@@ -18,6 +20,7 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: black;
+  color: white;
 }
 
 .container {
@@ -28,7 +31,11 @@ body {
 
 .flex,
 .nav-bar,
-.nav-bar ul {
+.nav-bar ul,
+.banner-section,
+.btn,
+.workOut, 
+.tutorial {
   display: flex;
 }
 
@@ -36,14 +43,34 @@ body {
   color: rgb(230, 83, 60);
 }
 
+.btn-primary{
+  background-color: rgb(230, 83, 60);
+  border-radius: 30px;
+  padding: 16px 32px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border: none;
+}
+
+.description{
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 24px;
+}
+
 /* header section related styles */
 .header-secton {
+  background: linear-gradient(180.00deg, rgba(17, 17, 17, 99),rgba(119, 119, 119, 0) 100%);
+  margin-bottom: 100px;
+  padding: 40px 0px;
 }
 
 .nav-bar {
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .nav-bar ul {
   list-style: none;
@@ -75,6 +102,97 @@ body {
 
 .nav-items i {
   display: none;
+}
+
+/* banner section related styles */
+.banner-section{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content{
+  width: 50%;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+  line-height: 75px;
+  margin-top: 50px;
+}
+
+.btn{
+  margin-top: 24px;
+  gap: 14px;
+}
+.download-btn{
+  background-color: rgba(0, 0, 0, 0.089);
+  border-radius: 30px;
+  padding: 16px 32px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.banner-image img{
+  width: 100%;
+  position: relative;
+}
+
+.workOut{
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 170px;
+  flex-direction: column;
+  padding: 18px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  top: 50%;
+  right: 7%;
+}
+.workOut h3{
+  font-weight: 900;
+  font-size: 2rem;
+}
+.workOut p{
+  font-weight: 200;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.tutorial{
+  background: rgba(48, 48, 48, 0);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 160px;
+  gap: 12px;
+  padding: 16px;
+  align-items: center;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  top: 92%;
+  left: 55%;
+}
+
+.red-circle{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+
+.tutorial h4{
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.tutorial p{
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 /* responsive for small devices */
