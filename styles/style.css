@@ -94,3 +94,29 @@ body {
     border: none;
   }
 }
+
+
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    /* nav bar */
+    .nav-bar {
+      width: 90%;
+    }
+    .nav-items{
+      padding: 8px;
+    }
+    .nav-bar ul {
+      list-style: none;
+      gap: 12px;
+      color: rgb(255, 255, 255);
+      font-weight: 400;
+      font-size: 0.9rem;
+      align-items: center;
+    }
+    .nav-title {
+      color: rgb(230, 83, 60);
+      font-size: 2rem;
+      font-weight: 800;
+      font-style: italic;
+    }
+}
