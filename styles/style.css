@@ -35,7 +35,9 @@ body {
 .banner-section,
 .btn,
 .workOut, 
-.tutorial, .habits-main-heading {
+.tutorial,
+.habits-main-heading, 
+.run-section {
   display: flex;
 }
 
@@ -238,6 +240,32 @@ body {
 .habit p{
   line-height: 18px;
 }
+
+  /* run section related styles */
+  .run-section{
+    background-color: rgb(34, 34, 34);
+    padding: 32px 40px;
+    border-radius: 18px;
+    gap: 150px;
+    margin-bottom: 100px;
+  }
+
+  .run-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .run-content p{
+    margin-top: 14px;
+    margin-bottom: 24px;
+  }
+  .run-content button{
+    padding: 16px 56px;
+  }
+
+  .run-image img{
+    width: 100%;
+    border-radius: 18px;
+  }
 
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
