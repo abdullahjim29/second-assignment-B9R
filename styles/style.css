@@ -35,7 +35,7 @@ body {
 .banner-section,
 .btn,
 .workOut, 
-.tutorial {
+.tutorial, .habits-main-heading {
   display: flex;
 }
 
@@ -51,6 +51,11 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 600;
   border: none;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .description{
@@ -197,6 +202,41 @@ body {
 
 .tutorial i{
   display: none;
+}
+
+
+/* habits-section related styles */
+.habits-section{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.habits-main-heading{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.habits-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 38px;
+}
+.habit img{
+  width: 80%;
+  border-radius: 50%;
+}
+
+.habit h5{
+  font-size: 1rem;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.habit p{
+  line-height: 18px;
 }
 
 /* responsive for small devices */
