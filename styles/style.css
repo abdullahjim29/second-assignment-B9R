@@ -339,6 +339,23 @@ body {
     font-size: 1.95rem;
   }
 
+  /* run section */
+
+  .run-section{
+    flex-direction: column;
+    gap: 32px;
+    padding: 28px 32px;
+  }
+  .run-image img{
+    width: 100%;
+  }
+  .run-content h1{
+    font-size: 2rem;
+  }
+
+  .run-section button{
+    width: 100%;
+  }
 }
 
 
