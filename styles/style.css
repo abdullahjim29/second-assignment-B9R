@@ -325,7 +325,6 @@ body {
     margin-top: 24px;
   }
   .input-feaild button{
-   /* width: 60%; */
    margin-top: 12px;
   }
 
@@ -438,6 +437,32 @@ body {
   }
 
   .run-section button{
+    width: 100%;
+  }
+
+  /* bmi calculator section */
+  .bmi-calc-input {
+    flex-direction: column;
+  }
+
+  .bmi-heading{
+    width: 90%;
+  }
+  .bmi-heading h1{
+    font-size: 2rem;
+  }
+
+  .bmi-calc-input{
+    width: 85%;
+  }
+
+  .bmi-calculator-chart{
+    width: 100%;
+  }
+  .bmi-calculator-chart h3{
+    font-size: 1.50rem;
+  }
+  .bmi-user-input{
     width: 100%;
   }
 }
