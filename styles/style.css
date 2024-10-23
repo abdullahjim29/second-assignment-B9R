@@ -529,6 +529,11 @@ hr{
     line-height: 40px;
   }
 
+  .banner-section button{
+    font-size: 0.8rem;
+    padding: 14px;
+  }
+
   .workOut {
     width: 150px;
     padding: 14px;
@@ -576,6 +581,7 @@ hr{
     flex-direction: column;
     gap: 32px;
     padding: 28px 32px;
+    width: 90%;
   }
   .run-image img {
     width: 100%;
@@ -666,7 +672,7 @@ hr{
   }
   .membership-section h1{
     width: 100%;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 }
 
