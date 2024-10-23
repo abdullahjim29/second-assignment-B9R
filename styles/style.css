@@ -497,6 +497,48 @@ hr{
   font-size: 0.7rem;
 }
 
+/* exercises-section related styles */
+.exercises-section{
+  margin-bottom: 80px;
+}
+
+.exercises-heading{
+  width: 55%;
+  margin-bottom: 50px;
+}
+.exercises-heading h1{
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.exercises-row-1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 8px;
+}
+
+.exercises-row-1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  /* filter: brightness(70%); */
+}
+
+.exercises-row-2{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.10fr 0.75fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+.exercises-row-2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  /* filter: brightness(70%); */
+}
+
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
   /* nav bar */
@@ -674,6 +716,28 @@ hr{
     width: 100%;
     font-size: 1.25rem;
   }
+
+  /* exercises section */
+  .exercises-row-1{
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+  }
+  .exercises-row-2{
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  #exercise-3{
+    grid-column: span 2;
+  }
+  #exercise-4{
+    grid-column: span 3;
+  }
+  .exercises-heading{
+    width: 100%;
+  }
+  .exercises-heading h1{
+    font-size: 2rem;
+  }
 }
 
 /* responsive for medium devices */
@@ -848,5 +912,15 @@ hr{
   .membership-section h1{
     width: 100%;
     font-size: 2.75rem;
+  }
+
+  /* exercises */
+  .exercises-row-1{
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+  }
+  .exercises-row-2{
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
   }
 }
