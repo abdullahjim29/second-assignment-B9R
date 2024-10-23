@@ -620,4 +620,53 @@ body {
     width: 100%;
     height: 100%;
   }
+
+  /* bmi calculator section */
+  .bmi-calc-input {
+    flex-direction: column;
+  }
+
+  .bmi-heading{
+    width: 70%;
+    margin-left: 36px;
+  }
+  .bmi-heading h1{
+    font-size: 3rem;
+  }
+
+  .bmi-calc-input{
+    width: 90%;
+  }
+
+  .bmi-calculator-chart{
+    width: 100%;
+  }
+  .bmi-calculator-chart h3{
+    font-size: 2rem;
+  }
+  .bmi-user-input{
+    width: 100%;
+  }
+
+  /* our team */
+  .our-team-heading{
+    width: 80%;
+  }
+  .our-team-heading h3{
+    font-size: 3rem;
+  }
+
+  .our-trainer-container{
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    gap: 16px;
+    row-gap: 0;
+  }
+  .trainer img{
+    width: 100%;
+  }
+  table,th,td{
+    padding: 20px 24px;
+    font-size: 1.25rem;
+  }
 }
